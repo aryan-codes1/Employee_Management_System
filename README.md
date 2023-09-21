@@ -59,7 +59,7 @@ To set up the MySQL database for this project, follow these steps:
 
 1. **Install and Start Server:** Start by installing XAMPP or a similar server environment if you haven't already. Once installed, open the XAMPP Control Panel and start both the Apache and MySQL services.
 
-2. **Access MySQL/bin folder:** Open your command prompt and cd to mySQl/bin and run the following command :
+2. **Access MySQL/bin folder:** Open your command prompt and cd to mySQl/bin and run the following command:
    ```bash
    mysql -u your_username -p
   - Replace username by your user name usually "root" and password if any.
@@ -67,9 +67,11 @@ To set up the MySQL database for this project, follow these steps:
 ```sql
 mysql>
 ```
-3. **Create a Database:** Inside PHPMyAdmin, create a new database named `usermanagement`. This is where the employee data will be stored.
+3. **Create a Database:** Create a new database named `usermanagement`. This is where the employee data will be stored.
 
-4. **Import Data:** To populate the database with the necessary tables and sample data, use the application to add data and create the required table. 
+4. **Import Data:** To populate the database with the necessary tables and sample data, use the application to add data and create the required table.
+
+5. A text file is provided with MySQL queries required for creation of table. Use these commands first then run the application. You can find it in `database` directory. 
 
 ## Usage
 
